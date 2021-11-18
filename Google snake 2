@@ -476,12 +476,12 @@ window.snake.light = function() {
 window.snake.pink = function() {
   return window.snake.scheme({
     scoreBar:     '#DB3C8A',
-    background:   '#821655',
-    borders:      '#A03271',
+    background:   '#04F404',
+    borders:      '#FFA500',
     shadows:      '#B64C9E',
-    lightSquares: '#EB92FB',
-    darkSquares:  '#C855BC',
-    buttons:      '#CA50CE',
+    lightSquares: '#04F404',
+    darkSquares:  '#04F404',
+    buttons:      '#FFA500',
   });
 };
 window.snake.end = function() {
